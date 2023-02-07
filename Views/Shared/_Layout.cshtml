@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/StyleSheet1.css">
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+     <header>
+        @Html.ActionLink("Home", "Index", "Home")&emsp;
+        @Html.ActionLink("Client", "Index", "Clients")&emsp;
+        @Html.ActionLink("Brokerage", "Index", "Brokerages")
+
+        @for(int i=0;i<10;i++)
+        {<p>Count @i</p>}
+
+    </header>
+    <div id="content">
+        @RenderBody()
+    </div>
+    <footer>
+        Working with database
+    </footer>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

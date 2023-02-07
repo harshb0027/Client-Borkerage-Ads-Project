@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "U0Fnz8E8EbLv1R6mSsWd+RUyKwnWcMjGH3QN0KweAuo=",
+  "Source": "Lab04",
+  "BasePath": "_content/Lab04",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Lab04\\wwwroot",
+      "Source": "Lab04",
+      "ContentRoot": "C:\\Users\\hp\\source\\repos\\Lab04\\Lab04\\wwwroot\\",
+      "BasePath": "_content/Lab04",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\hp\\source\\repos\\Lab04\\Lab04\\wwwroot\\real-estate.PNG",
+      "SourceId": "Lab04",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hp\\source\\repos\\Lab04\\Lab04\\wwwroot\\",
+      "BasePath": "_content/Lab04",
+      "RelativePath": "real-estate.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\real-estate.PNG"
+    },
+    {
+      "Identity": "C:\\Users\\hp\\source\\repos\\Lab04\\Lab04\\wwwroot\\StyleSheet.css",
+      "SourceId": "Lab04",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hp\\source\\repos\\Lab04\\Lab04\\wwwroot\\",
+      "BasePath": "_content/Lab04",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    },
+    {
+      "Identity": "C:\\Users\\hp\\source\\repos\\Lab04\\Lab04\\wwwroot\\StyleSheet1.css",
+      "SourceId": "Lab04",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hp\\source\\repos\\Lab04\\Lab04\\wwwroot\\",
+      "BasePath": "_content/Lab04",
+      "RelativePath": "StyleSheet1.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet1.css"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+﻿@model Lab04.Models.ViewModels.ClientSubscriptionsViewModel
+
+<h1>Edit</h1>
+
+<div>
+    <h4>Client</h4>
+    <hr>
+    <dl class="row">
+        <dt class="col-sm-2">
+            Full Name
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Client.FullName
+        </dd>
+    </dl>
+</div>
+<hr>
+<div class="row">
+    <div class="col-md-4">
+            <table>
+                    <tbody>
+                        @foreach (var item01 in Model.Subscriptions) {
+                        <tr>
+                        <td>
+                            @item01.Title
+                        </td>
+                       <td>
+                            @if(item01.IsMember)
+                            {
+                                
+                                <a asp-action="Unregister"  asp-route-ClientId="@Model.Client.Id" asp-route-BrokerageId="@item01.BrokerageId">Unregister</a>
+                                
+                            }
+                            else
+                            {
+                                 <a asp-action="Register" asp-route-ClientId=@Model.Client.Id asp-route-BrokerageId=@item01.BrokerageId>Register</a>  
+                                @* @:@Model.Client.Id  --- @item.BrokerageId*@
+                            }
+                            @* <a href="/Clients/RemoveSubscriptions?clientId=1&amp;brokerageId=A1">Unregister</a>*@
+                        </td>
+                    </tr>
+                        }
+            </tbody></table>
+    </div>
+</div>
+
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
